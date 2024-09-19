@@ -302,6 +302,9 @@ main {
 .footer__name {
 	font-size: 32px;
 }
+.footer__name a {
+	color: var(--base-text);
+}
 
 .menu__footer .menu-list {
 	display: flex;
