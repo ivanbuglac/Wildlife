@@ -79,6 +79,13 @@ a {
 	color: var(--base-text);
 }
 
+.menu-item .menu-link:hover {
+	color: var(--base-color-hover);
+}
+.menu-item .menu-link:active {
+	color: var(--base-color-active);
+}
+
 .menu-link img {
 	width: 32px;
 	height: 32px;
@@ -96,10 +103,12 @@ a {
 
 #SignIn:hover {
 	background-color: var(--base-color-hover);
+	border: 2px solid var(--base-color-hover);
 }
 
 #SignIn:active {
 	background-color: var(--base-color-active);
+	border: 2px solid var(--base-color-active);
 }
 
 .donate {
@@ -120,6 +129,7 @@ a {
 	height: 100px;
 	color: var(--base-text);
 	font-size: 18px;
+	line-height: 27px;
 }
 
 .donate__btn {
@@ -315,6 +325,13 @@ main {
 	left: 120px;
 }
 
+.menu__footer .menu-list :hover {
+	color: var(--base-color-hover);
+}
+.menu__footer .menu-list :active {
+	color: var(--base-color-active);
+}
+
 .icons {
 	position: relative;
 	left: 220px;
@@ -332,4 +349,9 @@ main {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+.icons-item .menu-link {
+	position: relative;
+	top: 5%;
 }
